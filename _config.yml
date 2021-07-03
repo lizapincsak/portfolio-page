@@ -1,0 +1,31 @@
+# Site settings
+url: ""
+baseurl: "" 
+title: Liza Pincsak
+email: liza.pincsak@gmail.com
+description: Bytes to bits. Sharing my takeways on entering the world ot tech on bit at a time. 
+twitter_username: LizaPincsak
+github_username:  LizaPincsak
+instagram_username: liza.pincsak
+linkedin_username: liza-pincsak
+medium_username: lizapincsak
+disqus: disqus_vzmczaP0CJ
+
+#include:
+  #- bookreviews
+  #
+
+
+exclude:
+  - .jekyll-cache/
+
+# Build settings
+permalink: blog/:year/:title.html
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
