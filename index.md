@@ -1,8 +1,5 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Home Page"
+background: '/img/lizasunflowerpage1.jpeg'
 ---
-
-## You're ready to go!
-
-Start developing your Jekyll website.
